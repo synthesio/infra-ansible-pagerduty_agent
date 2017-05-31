@@ -1,0 +1,10 @@
+# Ansible pagerduty agent role
+
+This role deploys pagerduty agent on a Debian hosts.
+
+```
+hosts: all
+  remote_user: root
+  roles:
+    - pagerduty_agent
+```
